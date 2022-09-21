@@ -1,0 +1,6 @@
+<app-lista-personas></app-lista-personas>
+<button class="btn btn-warning m-3" (click)="nuevaPersona()">Agregar nueva Persona</button>
+<!-- <div *ngIf="agregando"> -->
+    <app-alta-persona (onAgregar)="formularioCerrado($event)"></app-alta-persona>
+<!-- </div> -->
+
